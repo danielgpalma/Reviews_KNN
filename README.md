@@ -55,9 +55,13 @@ En el reporte de clasificacion observamos que para la etiqueta 2, la precision n
 
 Sin embargo, la columna que mayor informacion nos puede dar es el F1-Score, en la cual vemos que para la etiqueta 2 no tenemos un buen score, esto junto con lo anterior quiere decir que el modelo posiblemente clasifique datos con la etiqueta 2 pero que puede ser que sean Falsos Positivos.
 
+![Matriz de Confusion](https://raw.githubusercontent.com/danielgpalma/Reviews_KNN/main/confuion_matrix.png)
+
 Observamos la matriz de confusion en la cual vemos muy bien expresado el problema con la etiqueta 2, en la cual vemos que clasifica mas datos con la etiqueta 2 que los que son.
 
 Como prueba final, graficamos las resenas para observar donde se distribuyen dependiendo de su numero de estrellas, numero de palabras y valor del sentimiento.
+
+![Distribucion de Resenas](https://raw.githubusercontent.com/danielgpalma/Reviews_KNN/main/resultado.png)
 
 Al observar la grafica podemos notar como se agrupan las resenas segun su clasificacion, por lo que podemos deducir que una resena de 20 palabras y un valor del sentimiento de 1 nos daria una clasficiacion de 4 estrellas.
 
