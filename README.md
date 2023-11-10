@@ -30,6 +30,8 @@ Lo que se espera lograr es que con los valores de wordcount y sentimentValue pre
 
 Como primer paso haremos AED para ver como se ditribuyen los datos en sus cuartiles y los estadisticos mostrados del Dataset.
 
+![AED](https://raw.githubusercontent.com/danielgpalma/Reviews_KNN/main/AED.png)
+
 Hacemos la division del dataset.
 
 Se realiza una normalizacion con StandardScaler, esto debido a que en el analisis exploratorio de datos observamos que los datos se asemejan a la normalidad, si no hubiera sido asi hubieramos optado tal vez por un MinMaxScaler.
@@ -39,6 +41,8 @@ Creamos y aplicamos el modelo de KNN, declaramos k como 5 en el parametro n_neig
 ### Eleccion de K
 
 Para elegir el mejor valor de K iteraremos k de 1 a 20 para poder apreciar el accuracy de cada una de las opciones.
+
+![K Seleccion](https://raw.githubusercontent.com/danielgpalma/Reviews_KNN/main/K_Seleccion.png)
 
 
 Como se puede observar en la grafica del notebook, tenemos que cuando se alcanza el mejor accuracy es con k = [5, 7, 10], por lo que con lo que ya sabemos, optamos por usar k = 5, debido a que una menor k implica menor costo de memoria y una k impar siempre es mejor que una k par para evitar el empate entre clases. 
