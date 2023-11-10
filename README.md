@@ -20,9 +20,9 @@ El algoritmo en SciKit-Learn por default usa la distancia de Minkowski para el c
 
 ### Algoritmo
 
-En este repositorio se realiza un ejercicio de clasificacion con el Dataset reviews_sentiments.csv con la finalidad de mostrar de manera sencilla una aplicacion del algoritmo de KNN. 
+En este repositorio se realiza un ejercicio de clasificacion con el Dataset `reviews_sentiments.csv` con la finalidad de mostrar de manera sencilla una aplicacion del algoritmo de KNN. 
 
-Reviews_sentiments.csv es un dataset de resenas de un producto de google en el cual el usuario escribe su resena y otorga un numero de estrellas al producto.
+`Reviews_sentiments.csv` es un dataset de resenas de un producto de google en el cual el usuario escribe su resena y otorga un numero de estrellas al producto.
 
 Se usaran unicamente las variables continuas, estas se encuentran en las columnas wordcount, sentimentValue y Star Rating.
 
